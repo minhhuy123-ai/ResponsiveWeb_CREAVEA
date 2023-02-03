@@ -1,0 +1,178 @@
+/* For mobile phones: */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /*Hoat dong kinh doanh*/
+
+  .HDKD {
+    margin: 50px 0;
+    position: relative;
+  }
+  
+  /*A.Phần hình ảnh*/
+  
+  #Network {
+    height: 600px;
+  }
+  
+  .backimg img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Laptop {
+    margin-bottom: -2%;
+  }
+  
+  /*B.Phần kí tự đặc biệt*/
+  
+  .Icon {
+    top: 55%;
+    left: 5%;
+    position: absolute;
+  }
+  
+  .Handshake {
+    padding-top: 100%;
+  }
+  
+  .Books {
+    padding-top: 300%;
+  }
+  
+  .Icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /*C.Phần nội dung*/
+  
+  .Content {
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .Content a,
+  .Content p {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Educonsult {
+    margin-top: -2%;
+  }
+  
+  .Busiconsul h3 {
+    margin-top: 25%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For tablets: */
+
+  /*A.Phần hình ảnh*/
+    #Network {
+      height: 250px;
+    }
+  
+  /*B.Phần kí tự đặc biệt*/
+  
+  .Icon {
+    top: 75%;
+    left: 2%;  
+  }
+  
+  .Handshake {
+    padding-top: 30%;
+    
+  }
+  
+  .Books {
+    padding-top: 90%;
+  }
+  
+  /*C.Phần nội dung*/
+  
+  .Content {
+    top: 70%;
+    left: 10%;
+    width: 87%;
+    text-align: initial;
+  }
+  
+  .Educonsult {
+    margin-bottom: 2%;
+  }
+  
+  .Busiconsul h3 {
+    margin-top: 0%;
+  }
+  
+}
+  
+  @media only screen and (min-width: 992px) {
+    /* For desktop: */
+  
+    /*Hoat dong kinh doanh*/
+    /*A.Phần hình ảnh*/
+  
+    #Network {
+      height: 100%;
+    }
+  
+    .backimg {
+      display: flex;
+    }
+  
+    .Laptop {
+      margin-bottom: 0%;
+    }
+  
+    /*B.Phần kí tự đặc biệt*/
+  
+    .Icon {
+      top: 20%;
+      left: 46%;
+   
+    }
+  
+    .Handshake {
+      padding-bottom: 3%;
+    
+    }
+  
+    .Books {
+      padding-top: 3%;
+  
+    }
+  
+    /*C.Phần nội dung*/
+  
+    .Content {
+      top: 6%;
+      left: 52%;
+      width: 45%;
+    }
+  
+    .Content a,
+    .Content p {
+      font-size: 1vw;
+    }
+  
+    .Content h3 a {
+      font-size: 1.5vw;
+    }
+  
+    .Educonsult {
+      margin-top: -2%;
+    }
+  
+    .Busiconsul {
+      margin-top: -2%;
+    }
+  }

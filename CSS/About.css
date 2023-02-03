@@ -1,0 +1,35 @@
+/* For mobile phones: */
+* {
+    box-sizing: border-box;
+  }
+
+  /*Gioi thieu*/
+
+  .content{
+    margin-top: 5%;
+  }
+
+  .About{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .About .weblink p{
+    color: darkorange;
+  }
+}
+  @media only screen and (min-width: 768px) {
+    /* For tablets: */
+
+
+  /*Gioi thieu*/
+
+  @media only screen and (min-width: 992px) {
+    /* For desktop: */
+
+  /*Gioi thieu*/
+
+  .About{
+    margin-left: 10%;
+    margin-right: 10%;
+  }

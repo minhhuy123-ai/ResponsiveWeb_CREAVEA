@@ -1,0 +1,66 @@
+/* For mobile phones: */
+* {
+    box-sizing: border-box;
+  }
+
+
+
+.contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.us {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.marked{
+    display: none;
+}
+
+.button{
+    float: right;
+}
+
+#map 
+    {
+      background-image: url(/images/image9.png);
+      height: 300px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      
+    }
+
+.map {
+    margin-bottom: -5%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+
+.marked{
+    display: initial;
+}
+
+#map {
+    height: 200px;
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+
+
+.contact {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.us{
+    margin-top: initial;
+}

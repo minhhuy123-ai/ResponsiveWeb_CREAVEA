@@ -1,0 +1,38 @@
+/* For mobile phones: */
+* {
+    box-sizing: border-box;
+  }
+
+
+
+.Business {
+    margin-top: 5%;
+}
+
+.Business img{
+    width: 100%;
+}
+
+.content, .educontent{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+
+
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+
+
+
+.Business img{
+    width: 50%;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}

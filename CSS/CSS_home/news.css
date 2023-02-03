@@ -1,0 +1,103 @@
+/* For mobile phones: */
+
+* {
+    box-sizing: border-box;
+  }
+
+ /*Tin tức*/
+
+ .Tin {
+    margin: 10% 0;
+  }
+  
+  .Tin a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .News img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Japanese,.Taiwanese {
+    margin-bottom: 3%;
+  }
+  
+  .Japanese,.Taiwanese,.Kids {
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+
+  .Japan_content,.Taiwan_content,.Kids_content {
+    padding: 0 3%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For tablets: */
+
+     /*Tin tức*/
+
+  .Tin {
+    margin: 10% 5%;
+    
+  }
+  
+  .News {
+    display: flex;
+  }
+  
+  .News img {
+    width: 100%;
+    height: 90%;
+  }
+  
+  .Japanese {
+    margin-right: 3%;
+    margin-bottom: 0;
+    width: 100%;
+    
+  }
+  
+  .Taiwanese {
+    margin-right: 3%;
+    margin-bottom: 0;
+    width: 100%;
+    
+  }
+  
+  .Kids {
+    width: 100%;
+    
+  }
+
+  .Japanese,.Taiwanese,.Kids {
+    border: none;
+  }
+
+  .Japan_img,.Taiwan_img,.Kids_img {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    height: 40%;
+    margin-bottom: -10%;
+  }
+
+  .Japan_content,.Taiwan_content,.Kids_content {
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  }
+
+  @media only screen and (min-width: 992px) {
+    /* For desktop: */
+
+  /*Tin tức*/
+
+.Tin {
+    margin: 10% 15%;
+  }
+  .News img {
+    width: 100%;
+    height: 90%;
+  }
+}
